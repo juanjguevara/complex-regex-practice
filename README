@@ -1,0 +1,9 @@
+The program mini will take as an argument a single HTML file that has been
+downloaded from http://www.cs.txstate.edu/accounts/faculty. It will create a
+file called "info.txt" that will have the professor's name, research interests,
+education, office location, and webpage address. The information is extracted
+from the html files using regular expressions through the programs grep and
+sed.
+
+Example Run:
+	./mini.sh byron-gao.html
